@@ -1,0 +1,345 @@
+.SnsRankPage-content-div {
+    display: flex;
+    background-color: #f1f1f1;
+    width: 3.75rem;
+    flex-direction: column;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+}
+
+.SnsRankPage-content-isloading {
+    display: flex;
+    /* background-color: #f1f1f1; */
+    background-color: white;
+    width: 100vw;
+    height: 90vh;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.SnsPage-content-isloading {
+    display: flex;
+    /* background-color: #f1f1f1; */
+    /* background-color: white; */
+    width: 100vw;
+    height: 100vh;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.SnsRankPage-SnsMyHeader-div {
+    display: flex;
+    background-color: #262729;
+    width: 3.75rem;
+    height: 0.40rem;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    z-index: 2;
+}
+
+.SnsRankPage-SnsMyHeader-firstDiv {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+
+.SnsRankPage-SnsMyHeader-firstspan {
+    font-size: 0.14rem;
+    color: #666767;
+}
+
+.SnsRankPage-SnsMyHeader-clickspan {
+    font-size: 0.14rem;
+    color: #ffffff;
+}
+
+.SnsRankPage-SnsMyHeader-first-hr {
+    position: absolute;
+    top:0.20rem;
+    border: 0;
+    width: 0.8rem;
+    height: 0.01rem;
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+.SnsRankPage-SnsRankTopThree-div {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.SnsRankPage-SnsRankTopThree-first {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.SnsRankPage-SnsRankTopThree-firstAvatar {
+    width: 0.64rem;
+    height: 0.64rem;
+    border-radius: 0.32rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0.4rem;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #b4b4b4;
+}
+
+.SnsRankPage-SnsRankTopThree-midAvatar {
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 0.4rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0.24rem;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #b4b4b4;
+}
+
+.SnsRankPage-topthree-span-height {
+    width: 0.8rem;
+    max-height: 0.5rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.09rem;
+    margin-bottom: 0.09rem;
+}
+
+.SnsRankPage-SnsRankTopThree-first-Name {
+    margin-top: 0.17rem;
+    color: black;
+    font-size: 0.14rem;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    word-wrap: break-word;
+    word-break: break-all;
+    text-align: center;
+    line-clamp: 2;
+    line-height: 0.17rem;
+}
+
+.SnsRankPage-SnsRankTopThree-first-stars {
+    display: flex;
+    flex-direction: row;
+    height: 0.2rem;
+    background-color: white;
+    border-radius: 0.1rem;
+    justify-content: center;
+    align-items: center;
+    margin: auto auto 0rem auto;
+}
+
+.SnsRankPage-SnsRankTopThree-first-stars-point {
+    width: 0.15rem;
+    height: 0.15rem;
+    margin-left: 0.07rem;
+    margin-right: 0rem;
+}
+
+.SnsRankPage-SnsRankTopThree-starCount {
+    font-size: 0.12rem;
+    margin-left: 0.05rem;
+    margin-right: 0.07rem;
+    font-weight: bold;
+}
+
+.SnsRankPage-SnsRankMe-div {
+    width: 3.29rem;
+    height: 0.5rem;
+    background-color: white;
+    border-radius: 0.25rem;
+    margin: 0.16rem auto auto auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.SnsRankPage-SnsRankMe-rank-span {
+    font-size: 0.14rem;
+    margin: auto 0.16rem auto 0.28rem;
+}
+
+.SnsRankPage-SnsRankMe-rank-img {
+    width: 0.32rem;
+    height: 0.32rem;
+    border-radius: 0.16rem;
+    margin: auto 0.16rem auto 0rem;
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+
+.SnsRankPage-SnsRankMe-rank-name {
+    font-size: 0.14rem;
+    margin: auto auto auto 0rem;
+    width: 1.4rem;
+    white-space: nowrap;
+    word-wrap: break-word;
+    text-align: left;
+    overflow : hidden;
+    text-overflow: ellipsis;
+}
+
+.snsAnswerPage-SnsRankMe-starimg {
+    width: 0.15rem;
+    height: 0.15rem;
+    margin: auto 0.05rem auto auto;
+}
+
+.snsAnswerPage-SnsRankMe-starCount {
+    font-size: 0.12rem;
+    font-weight: bold;
+    margin: auto 0.33rem auto 0rem;
+}
+
+.SnsRankOther-hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid #EAEAEA;
+    /* border-bottom: 1px solid rgba(255, 255, 255, 0.3);     */
+}
+
+.SnsRankOther-dr-hr {
+    border: 0;
+    height: 0;
+    width: 100%;
+    border-top: 1px solid #EAEAEA;
+    /* border-bottom: 1px solid rgba(255, 255, 255, 0.3);     */
+}
+
+.SnsRankOther-ranklist-rank-div {
+    display: flex;
+    flex-direction: row;
+    height: 0.5rem;
+}
+
+.SnsRankOther-ranklist-rank-span {
+    font-size: 0.14rem;
+    width: 0.20rem;
+    text-align: right;
+    margin: auto 0.16rem auto 0.25rem;
+}
+
+.SnsRankOther-SnsRankMe-rank-img {
+    width: 0.32rem;
+    height: 0.32rem;
+    border-radius: 0.16rem;
+    margin: auto 0.16rem auto 0rem;
+    background-color: #b4b4b4;
+}
+
+.SnsRankOther-ranklist-username-span {
+    font-size: 0.14rem;
+    margin: auto auto auto 0rem;
+    width: 2.0rem;
+    white-space: nowrap;
+    word-wrap: break-word;
+    text-align: left;
+    overflow : hidden;
+    text-overflow: ellipsis;
+}
+
+.SnsRankOther-ranklist-div {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-top: 0.12rem;
+}
+
+.SnsRankPage-stars-point {
+    display: flex;
+    flex-direction: row;
+    height: 0.2rem;
+    background-color: white;
+    border-radius: 0.1rem;
+    justify-content: center;
+    align-items: center;
+    margin: auto 0.15rem auto auto;
+}
+
+.SnsRankPage-SnsRankTopThree-firstflag {
+    position: absolute;
+    width: 0.48rem;
+    height: 0.468rem;
+    top: 0.49rem;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-image: url(../../../public/StarGold.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.SnsRankPage-SnsRankTopThree-number {
+    font-size: 0.18rem;
+    padding-top: 0.03rem;
+    padding-left: 0.02rem;
+}
+
+.SnsRankPage-SnsRankTopThree-secondflag {
+    position: absolute;
+    width: 0.4rem;
+    height: 0.4rem;
+    top: 0.4rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.SnsRankOther-LastweekTitle {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.SnsRankOther-LastweekTitle-span {
+    font-size: 0.2rem;
+    text-align: justify;
+    font-weight: bold;
+    margin: 0.24rem auto 0rem auto;
+}
+
+.SnsRankOther-LastweekSubTitle-span {
+    font-size: 0.14rem;
+    text-align: justify;
+    margin: 0.04rem auto 0rem auto;
+}
+
+.SnsRankOther-loadingPic {
+    background: rgba(230, 230, 230, 0.479);
+    /* padding: 0.18rem; */
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 0.05rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}

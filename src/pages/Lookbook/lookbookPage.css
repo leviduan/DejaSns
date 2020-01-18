@@ -1,0 +1,13 @@
+.lookbookPage-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    position: fixed !important;
+    width: 3.75rem; 
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    touch-action: none;
+    overflow: hidden;
+    -webkit-tap-highlight-color:rgba(0,0,0,0);  
+}

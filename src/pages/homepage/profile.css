@@ -1,0 +1,138 @@
+.containerProfile {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  flex-direction: column;
+  /* max-width: 750px; */
+  background-color: white;
+}
+.topbarStyle {
+  /* z-index: 1; */
+  box-shadow: 0 0.5px 1px 0 rgba(95, 17, 17, 0.1), 0 1px 5px 0 rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: row;
+  height: 70px;
+  background-color: white;
+}
+.avatarStyle {
+  width: 44px;
+  height: 44px;
+  border-radius:22px;
+  margin-left: 20px;
+  margin-right: 0px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.usernameStyle {
+  margin-left: 10px;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 18px;
+  font-weight: bold;
+}
+.userPointStyle {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 18px;
+  font-weight: bold;
+}
+.userPointTitleStyle {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 14px;
+}
+.userRankStyle {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 18px;
+  font-weight: bold;
+}
+.userRankTitleStyle {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 14px;
+}
+.pointViewStyle {
+  margin: auto 10px auto auto;
+  width: 45px;
+  height: 76/2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+}
+.rankViewStyle {
+  margin: auto 20px auto 5px;
+  width: 45px;
+  height: 76/2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+}
+.contentImageStyle {
+  width: 100%;
+}
+.image-container {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  right: 0;
+  left: 0;
+  justify-content: center;
+  /* align-items: center; */
+  flex-wrap: wrap;
+  align-content: center;
+
+}
+.main_container {
+  background-image: url(../../../public/activityPic.jpg);
+  position: relative;
+  width: 100%;
+  padding-bottom:174%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  background-repeat: no-repeat;/*背景图片不重复*/
+  background-size: cover;/*背景图片拉伸铺满*/
+}
+.imagecell {
+  margin: 0px 10px 20px 10px;
+  width: 3rem;
+  height: 4rem;
+}
+.commitButtonStyle {
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 15px 25px;
+  font-size: 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 32px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.buttonDivStyle {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  bottom: -50px;
+}

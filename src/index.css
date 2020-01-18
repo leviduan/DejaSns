@@ -1,0 +1,52 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  text-size-adjust: 100%;
+}
+
+html {
+  -webkit-text-size-adjust: none;
+  font-size: 26.66667vw
+}
+
+
+@media only screen and (max-width: 640px) {
+  html {
+    font-size: 100px
+  }
+}
+
+
+@media only screen and (max-width: 375px) {
+  html {
+    font-size: 100px
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  html {
+    font-size: 85px
+  }
+}
+
+@media only screen and (min-width: 640px) {
+  html {
+    font-size: 160px
+  }
+}
+
+body {
+  font-size: .12rem;
+  font-family: "Helvetica Neue", Helvetica, sans-serifNeue;
+}
+.app {
+  margin-left: auto;
+  margin-right: auto;
+  /* max-width: 640px; */
+  color: #666;
+  font-size: .12rem;
+  line-height: 1.4;
+  position: relative;
+}

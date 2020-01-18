@@ -1,0 +1,185 @@
+.snsrank-containerProfile {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    flex-direction: column;
+    /* max-width: 750px; */
+    background-color: white;
+}
+.snsrank-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+.snsrank-title-div {
+    display: flex;
+    height: 70px;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: auto;
+}
+.snsrank-avatar-div {
+    display: flex;
+    flex-direction: row;
+}
+.sns-frist-avatar-img {
+    width: 88px;
+    height: 88px;
+    border-radius: 44px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    /*背景图片不重复*/
+    background-size: cover;
+    /*背景图片拉伸铺满*/
+}
+.sns-second-avatar-img {
+    width: 66px;
+    height: 66px;
+    border-radius: 33px;
+    background-repeat: no-repeat;
+    /*背景图片不重复*/
+    background-size: cover;
+    /*背景图片拉伸铺满*/
+    overflow: hidden;
+}
+.sns-third-avatar-img {
+    width: 66px;
+    height: 66px;
+    border-radius: 33px;
+    background-repeat: no-repeat;
+    /*背景图片不重复*/
+    background-size: cover;
+    /*背景图片拉伸铺满*/
+    overflow: hidden;
+}
+.sns-avatar-cover {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sns-first-text {
+    color: white;
+    font-size: 28px;
+}
+.sns-first-st-text {
+    color: white;
+    font-size: 20px;
+    /* margin-bottom: -3px; */
+    padding-top: 5px;
+}
+.sns-second-text {
+    color: white;
+    font-size: 20px;
+}
+.sns-second-st-text {
+    color: white;
+    font-size: 13px;
+    padding-left: 2px;
+    /* margin-bottom: -3px; */
+    padding-top: 5px;
+}
+.sns-first-name {
+    color: black;
+    font-size: 13px;
+}
+.sns-second-name {
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    white-space: nowrap;
+}
+.sns-third-name {
+    color: black;
+    font-size: 13px;
+}
+.snsrank-name-div {
+    margin-top: 14px;
+    display: flex;
+    flex-direction: row;
+}
+.snsrank-avatarandname-div {
+    margin-left: 10%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.snsrank-name-flex-second {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    overflow: hidden;
+}
+.snsrank-name-flex-first {
+    display: flex;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    overflow: hidden;
+}
+.snsrank-name-flex-third {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    overflow: hidden;
+}
+.snsrank-name-point {
+    color: black;
+    font-size: 10px;
+    background-color: gainsboro;
+    padding: 6px 8px 6px 8px;
+    border-radius: 15px;
+}
+.snsrank-ranklist-div {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+.snsrank-ranklist-rank-span {
+    font-size: 14px;
+    color: gray;
+    margin-left: 10px;
+    margin-right: 0px;
+}
+.snsrank-ranklist-username-span {
+    font-size: 14px;
+    color: black;
+    margin-left: 20px;
+    margin-right: auto;
+}
+.snsrank-style-one {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);    
+}
+.snsrank-ranklist-rank-div {
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.snsrank-name-pointd {
+    color: black;
+    font-size: 10px;
+    background-color: gainsboro;
+    padding: 6px 8px 6px 8px;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: 10px;
+}

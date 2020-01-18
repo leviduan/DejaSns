@@ -1,0 +1,625 @@
+.snsAnswerPage-content-backgroundColor {
+    background-color: #f1f1f1;
+    position: fix;
+    width: 3.75rem;
+    height: 100vh;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+}
+
+.snsAnswerPage-content-div {
+    display: flex;
+    background-color: #f1f1f1;
+    width: 3.75rem;
+    /* width: 100%; */
+    flex-direction: column;
+}
+
+.snsAnswerPage-content-header-div {
+    display: flex;
+    /* width: 3.15rem; */
+    flex-direction: row;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+}
+
+.snsAnswerPage-content-header-span {
+    font-size: 0.14rem;
+    font-weight: bold;
+    width: 2.65rem;
+    margin-top: 0.2rem;
+    word-wrap: break-word;
+}
+
+.snsAnswerPage-content-header-rule-div {
+    margin-left: auto;
+    margin-right: 0rem;
+    margin-top: 0.2rem;
+    width: 0.22rem;
+    height: 0.22rem;
+    background-image: url(../../../public/Rules.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+
+.snsAnswerPage-content-questionImage-img {
+    width: 3.15rem;
+    margin-top: 0.2rem;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+}
+
+.snsAnswerPage-content-questionImage-div {
+    width: 3.15rem;
+    height: 3.15rem;
+    margin-top: 0.2rem;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+}
+
+.snsAnswerPage-content-choosePic-div {
+    display: flex;
+    flex-direction: row;
+    width: 3.15rem;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 0.42rem;;
+}
+
+.snsAnswerPage-cell-pic-div {
+    box-sizing: border-box;
+    width: 1.5rem;
+    height: 2rem;
+    border: 0.03rem #ffffff solid;
+    background-repeat: no-repeat;/*背景图片不重复*/
+    background-size: cover;
+    background-color: #b4b4b4;
+}
+
+.snsAnswerPage-cell-pic-div-click {
+    box-sizing: border-box;
+    width: 1.5rem;
+    height: 2rem;
+    border: 0.03rem #000000 solid;
+    background-repeat: no-repeat;/*背景图片不重复*/
+    background-size: cover;
+    background-color: #b4b4b4;
+}
+
+.snsAnswerPage-cell-pic-div-wrong {
+    box-sizing: border-box;
+    width: 1.5rem;
+    height: 2rem;
+    border: 0.03rem #F94C5D solid;
+    background-repeat: no-repeat;/*背景图片不重复*/
+    background-size: cover;
+    background-color: #b4b4b4;
+}
+
+.snsAnswerPage-cell-pic-div-right {
+    box-sizing: border-box;
+    width: 1.5rem;
+    height: 2rem;
+    border: 0.03rem #1FCA95 solid;
+    background-repeat: no-repeat;/*背景图片不重复*/
+    background-size: cover;
+    background-color: #b4b4b4;
+}
+
+.snsAnswerPage-cell-pic-content-div {
+    position: relative;
+    width: 1.5rem;
+    height: 2rem;
+    margin-top: 0.2rem;
+    overflow: hidden;
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+
+.snsAnswerPage-cell-pic-content-div-error {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1.5rem;
+    height: 2rem;
+    overflow: hidden;
+    background-color: #818181;
+    opacity: 0.8;
+}
+
+.snsAnswerPage-cell-label-div {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    top:0;
+    left:0;
+    width: 0.32rem;
+    height: 0.32rem;
+    background-color: white;
+}
+
+.snsAnswerPage-cell-span-title-click {
+    font-size: 0.16rem;
+    color: white;
+}
+
+.snsAnswerPage-cell-span-title {
+    font-size: 0.16rem;
+    color: black;
+}
+
+.snsAnswerPage-cell-bottombar-div {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 1.5rem;
+    height: 0.3rem;
+    top: 1.7rem;
+    left: 0;
+    background-color: white;
+    box-sizing: border-box;
+    border: 0.03rem #ffffff solid;
+    border-top: none;
+}
+
+.snsAnswerPage-cell-bottombar-div-click {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 1.5rem;
+    height: 0.3rem;
+    top: 1.7rem;
+    left: 0;
+    background-color: white;
+    box-sizing: border-box;
+    border: 0.03rem #000000 solid;
+    border-top: none;
+}
+
+.snsAnswerPage-cell-bottombar-div-right {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 1.5rem;
+    height: 0.3rem;
+    top: 1.7rem;
+    left: 0;
+    background-color: #1FCA95;
+    box-sizing: border-box;
+    border-top: none;
+    border: 0.03rem #1FCA95 solid;
+    opacity: 0.8;
+}
+
+.snsAnswerPage-cell-bottombar-div-wrong {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 1.5rem;
+    height: 0.3rem;
+    top: 1.7rem;
+    left: 0;
+    background-color: #F94C5D;
+    box-sizing: border-box;
+    border-top: none;
+    border: 0.03rem #F94C5D solid;
+    /* opacity: 0.8; */
+}
+
+.snsAnswerPage-cell-pic-content-div-error-border {
+    position: absolute;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    width: 1.5rem;
+    height: 2rem;
+    overflow: hidden;
+    background-color: #818181;
+    opacity: 0.8;
+    border: 0.03rem #F94C5D solid;
+}
+
+.snsConfirmBtn-container-div {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    /* margin-bottom: 0.46rem; */
+    /* margin-bottom: 0.68rem; */
+    margin-bottom: 0.36rem;
+}
+
+.snsConfirmBtn-View-div {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    width: 2rem;
+    height: 0.4rem;
+    justify-content: center;
+    align-items: center;
+    margin: 0rem auto 0rem auto;
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+
+.snsConfirmBtn-View-div-click {
+    display: flex;
+    flex-direction: row;
+    background-color: #CECECE;
+    width: 2rem;
+    height: 0.4rem;
+    justify-content: center;
+    align-items: center;
+    margin: 0rem auto 0rem auto;
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+
+.snsConfirmBtn-span {
+    color: white;
+    font-size: 0.14rem;
+}
+
+.snsAnswerPageChooseLabelCell-content-div {
+    display: flex;
+    flex-direction: row;
+    /* position: relative; */
+    width: 100%;
+    height: 0.32rem;
+    margin-top: 0.2rem;
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+
+.snsAnswerPageChooseLabelCell-label-div {
+    background-color: white;
+    display: flex;
+    flex: 1;
+    box-sizing: border-box;
+    border: 0.03rem #000000 solid;
+    border-left: none;
+    height: 0.32rem;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.snsAnswerPageChooseLabelCell-label-div-wrong {
+    background-color: rgba(129, 129, 129, 0.7);
+    display: flex;
+    flex: 1;
+    box-sizing: border-box;
+    border: 0.03rem #F14A5E solid;
+    border-left: none;
+    height: 0.32rem;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.snsAnswerPageChooseLabelCell-label-div-correct {
+    background-color: #49D2A7;
+    display: flex;
+    flex: 1;
+    box-sizing: border-box;
+    height: 0.32rem;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.snsAnswerPageChooseLabelCell-label-div-notcorrect {
+    background-color: rgba(129, 129, 129, 0.7);
+    display: flex;
+    flex: 1;
+    box-sizing: border-box;
+    height: 0.32rem;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.snsAnswerPageChooseLabelCell-label-span-correct {
+    font-size: 0.12rem;
+    color: white;
+}
+
+.snsAnswerPageChooseLabelCell-label-span-notcorrect {
+    font-size: 0.12rem;
+    color: #818181;
+}
+
+.snsAnswerPageChooseLabelCell-label-span-right {
+    font-size: 0.12rem;
+    color: black;
+}
+
+.snsAnswerPageChooseLabelCell-label-div-notclick {
+    background-color: white;
+    display: flex;
+    flex: 1;
+    box-sizing: border-box;
+    border: 0.03rem #ffffff solid;
+    border-left: none;
+    height: 0.32rem;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.snsAnswerPage-Labelcell-label-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    top:0;
+    left:0;
+    width: 0.32rem;
+    height: 0.32rem;
+    background-color: white;
+}
+
+.snsAnswerPage-SnsMyProfileHeader-content {
+    display: flex;
+    flex-direction: row;
+    width: 3.75rem;
+    height: 0.71rem;
+}
+
+.snsAnswerPage-SnsMyProfileHeader-avatar {
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 0.2rem;
+    margin: 0.16rem 0rem auto 0.23rem;
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+    background-color: #b4b4b4;
+}
+
+.snsAnswerPage-SnsMyProfileHeader-nameAndStar-div {
+    display: flex;
+    flex-direction: column;
+    margin: 0.16rem auto auto 0.08rem;
+}
+
+.snsAnswerPage-SnsMyProfileHeader-name {
+    word-wrap: break-word;
+    text-align: left;
+    overflow : hidden;
+    text-overflow: ellipsis;
+    font-size: 0.16rem;
+    width: 1.5rem;
+    white-space: nowrap;
+}
+
+.snsAnswerPage-SnsMyProfileHeader-stars {
+    font-size: 0.1rem;
+    margin: auto 0.04rem auto 0rem
+}
+
+.snsAnswerPage-SnsMyProfileHeader-stars-right {
+    font-size: 0.1rem;
+    margin: auto 0.04rem auto 0.16rem
+}
+
+.snsAnswerPage-SnsMyProfileHeader-twoStarStyle-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.snsAnswerPage-SnsMyProfileHeader-star-div {
+    display: flex;
+    flex-direction: row;
+    height: 0.2rem;
+    background-color: white;
+    border-radius: 0.1rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.02rem;
+}
+
+.snsAnswerPage-SnsMyProfileHeader-nameAndStar-img {
+    width: 0.15rem;
+    height: 0.15rem;
+    margin-left: 0.07rem;
+    margin-right: 0rem;
+}
+
+.snsAnswerPage-SnsMyProfileHeader-starCount {
+    font-size: 0.12rem;
+    margin-left: 0.05rem;
+    margin-right: 0.07rem;
+}
+
+.snsAnswerPage-SnsMyProfileHeader-acquireStar-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto auto auto auto;
+}
+
+.snsAnswerPage-SnsMyProfileHeader-acquireStar-starPic {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 0.3rem;
+    height: 0.3rem;
+    background-image: url(../../../public/StarGold.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 0rem;
+}
+
+.snsAnswerPage-SnsMyProfileHeader-acquireStar-starPic-darkStar {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 0.3rem;
+    height: 0.3rem;
+    background-image: url(../../../public/StarGrey.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 0rem;
+}
+
+.snsAnswerPage-SnsMyProfileHeader {
+    display: flex;
+    flex-direction: column;
+}
+
+.snsAnswerPage-SnsMyProfileHeader-underline {
+    width: 3.16rem;
+    height: 0.01rem;
+    margin: auto auto 0rem auto;
+    background-color:#D9D9D9;
+}
+
+.snsAnswerPage-SnsMyProfileGetRightAnswer-background-div {
+    display: flex;
+    flex-direction: row;
+    margin: 0.2rem  0.23rem 0rem 0.23rem;
+    background-color: white;
+    /* width: 3.29rem; */
+    height: 0.5rem;
+    border-radius: 0.34rem;
+}
+
+.snsAnswerPage-SnsMyProfileGetRightAnswer-background-img {
+    width: 0.2rem;
+    height: 0.2rem;
+    margin: auto 0.19rem auto 0.22rem;
+    background-color: red;
+}
+
+.snsAnswerPage-SnsMyProfileGetRightAnswer-background-span {
+    color: red;
+    font-size: 0.12rem;
+    width: 2.2rem;
+    margin: auto 0.54rem auto auto;
+    text-align: center;
+}
+
+.snsAnswerPage-SnsMyProfileGetRightAnswer-background-img-right {
+    width: 0.27rem;
+    height: 0.2rem;
+    margin: auto 0.19rem auto 0.22rem;
+}
+
+.snsAnswerPage-SnsMyProfileGetRightAnswer-background-img-wrong {
+    width: 0.2rem;
+    height: 0.2rem;
+    margin: auto 0.19rem auto 0.22rem;
+}
+
+.snsAnswerPage-SnsMyProfileGetRightAnswer-background-span-right {
+    color: #1FCA95;
+    font-size: 0.12rem;
+    width: 2.2rem;
+    margin: auto 0.54rem auto auto;
+    text-align: center;
+}
+
+.snsAnswerPage-SnsMyProfileGetRightAnswer-background-span-wrong {
+    color: red;
+    font-size: 0.12rem;
+    width: 2.2rem;
+    margin: auto 0.54rem auto auto;
+    text-align: center;
+}
+
+.snsConfirmBtn-showresults-span-div {
+    /* position: absolute; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* top: 0.48rem; */
+    margin: 0.08rem auto 0rem auto;
+    width: 100%;
+}
+
+.snsConfirmBtn-showresults-span {
+    width: 2.43rem;
+    font-size: 0.12rem;
+    text-align: center;
+}
+
+.snsConfirmBtn-showresults-span-null {
+    height: 0.2rem;
+}
+
+.snsAnswerPage-SnsAnswerPageConnectInfo-content {
+    display: flex;
+    flex-direction: column;
+    width: 3.15rem;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+    margin-top: 0rem;
+    margin-bottom: 0.3rem;
+}
+
+.snsAnswerPage-SnsAnswerPageConnectInfo-content-white {
+    display: flex;
+    flex-direction: column;
+    width: 3.15;
+    background-color: white;
+}
+
+.snsAnswerPage-SnsAnswerPageConnectInfo-title {
+    /* width: 3.15-0.2rem; */
+    font-size: 0.18rem;
+    text-align: left;   
+    font-weight: bold;  
+    margin: 0.1rem 0.1rem 0rem 0.1rem;
+    text-overflow: ellipsis; 
+    word-wrap: break-word;
+    text-align: left;   
+}
+
+.snsAnswerPage-SnsAnswerPageConnectInfo-span {
+    font-size: 0.12rem;
+    margin: 0.08rem 0.1rem 0.2rem 0.1rem;
+    text-overflow: ellipsis; 
+    word-wrap: break-word;
+    text-align: left;   
+}
+
+.snsAnswerPage-SnsAnswerPageConnectInfo-span-null {
+    font-size: 0.12rem;
+    margin: 0rem 0.1rem 0.16rem 0.1rem;
+    text-overflow: ellipsis; 
+    word-wrap: break-word;
+    text-align: left;   
+}
+
+.snsAnswerPage-SnsAnswerPageConnectInfo-pic {
+    width: 2.95rem;
+    margin: 0.16rem 0.1rem 0rem 0.1rem;
+    word-wrap: break-word;
+}
+
+.snsAnswerPage-SnsAnswerPageConnectInfo-finalspan {
+    font-size: 0.12rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 0.32rem auto 0.2rem auto;
+}

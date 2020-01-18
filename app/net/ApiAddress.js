@@ -1,0 +1,13 @@
+
+////////////////////////////////////////////////////////////////////////////////////////////
+//                          cloud.deja.fashion
+////////////////////////////////////////////////////////////////////////////////////////////
+
+// Account
+export const ACCOUNT_REGISTER = '/customer/account/register';
+
+// Details
+export const SHOP_ITEM = '/shop/shop_item/{shopItemId}/shop_item_group_id/{shopItemGroupId}';
+
+//Me
+export const MY_FLOOOWINGS = '/favourite/my_followings';
